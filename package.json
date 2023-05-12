@@ -1,0 +1,26 @@
+{
+  "name": "obsidian-plugin-template",
+  "version": "0.1.0",
+  "description": "A template for creating a plugin for obsidian with vite + vue",
+  "main": "main.js",
+  "scripts": {
+    "dev": "vite build --watch",
+    "build": "vite build"
+  },
+  "keywords": [
+    "obsidian",
+    "vue",
+    "vite"
+  ],
+  "author": "Muhammad Kazim",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^3.0.8"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.2.3",
+    "@vue/compiler-sfc": "^3.0.8",
+    "obsidian": "^0.12.0",
+    "vite": "^2.3.8"
+  }
+}
